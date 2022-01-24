@@ -1,7 +1,11 @@
 import React from 'react';
+import FooterS from './styles';
 
-const Footer = () => {
-  return <div>Footer</div>;
-};
+const Footer = () => (
+  <FooterS>
+  <p>Platzi Conf Merch</p>
+  <p>Todos los derechos reservados</p>
+</FooterS>
+)
 
 export default Footer;
